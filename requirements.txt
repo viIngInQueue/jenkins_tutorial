@@ -1,0 +1,12 @@
+
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+loguru==0.7.3
+joblib==1.6.0
+# model.pkl was trained with scikit-learn 1.7.2 + pandas 3.x (Python 3.14).
+# A pickle only loads with matching versions, so keep these in sync with the notebook environment.
+scikit-learn==1.7.2
+pandas==3.0.6
+lightgbm==4.7.0
+pytest==9.1.1
+ 
